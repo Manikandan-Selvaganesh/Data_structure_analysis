@@ -1,2 +1,3 @@
 # Data_structure_analysis
 Binomial heap implementation using Priority queues
+The binary heap data structure is fine for the simple operations of inserting,deleting and extracting elements, but other operations aren't so well supported.One such operation is the Merge operation, which joins two heaps together.If the heaps are binary heaps then this requires building up a new heap from scratch, using the elements of the old heaps, which is expensive for large. The proposed system presents the data structure known as a binomial heap, which supports Merge operations more efficiently. Again, binomial heaps can be minimum heaps or maximum heaps, and in this case, the focus is only on minimum heaps.
